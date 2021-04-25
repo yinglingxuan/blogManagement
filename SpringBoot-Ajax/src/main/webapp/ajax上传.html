@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<form id="uploadForm" enctype="multipart/form-data">
+		    <input id="file" type="file" name="file"/>
+		    <button id="upload" type="button">上传</button>
+		</form>
+
+
+		<script type="text/javascript">
+			
+	        
+			$("#upload").click(function(){
+				var f = $('#file')[0].files[0];
+		        var form = new FormData();
+		       	form.append('file', f);
+				$.ajax({
+				    url: 'http://192.168.2.133:8080/upload',
+				    type: 'POST',
+				    cache: false,
+				    data: form,
+				    processData: false,
+				    contentType: false
+				}).done(function(res) {
+				}).fail(function(res) {});
+			})
+			
+
+
+
+			  /*var form = new FormData();
+			  form.append("name","zxj");     // 要传到服务器的值
+			  form.append("password",123456);     //要传到服务器的值
+			　$.ajax({
+	                url:"http://127.0.0.1:8080/upload",
+	                type:"post",
+	                data:form,
+	                processData:false,        //因为data值是FormData对象，不需要对数据做处理
+	                contentType:false,        //contentType设置为false。因为是由<form>表单构造的FormData对象，且已经声明了属性enctype="multipart/form-data"，所以这里设置为false
+	                success:function(data){
+	                    window.clearInterval(timer);
+	                    console.log("over..");
+	                }
+			 });*/
+				/*$.ajax({
+					url: "http://127.0.0.1:8080/upload",
+					success: function(data, status, xhr){
+						alert(data);
+					}, 
+					error: function(xhr, status, errorThrown){
+						console.warn(xhr, status, errorThrown);
+					}
+				})*/
+
+		</script>
+	<!--这里要注意几点：
+	
+	processData设置为false。因为data值是FormData对象，不需要对数据做处理。
+	<form>标签添加enctype="multipart/form-data"属性。
+	cache设置为false，上传文件不需要缓存。
+	contentType设置为false。因为是由<form>表单构造的FormData对象，且已经声明了属性enctype="multipart/form-data"，所以这里设置为false。
+	上传后，服务器端代码需要使用从查询参数名为file获取文件输入流对象，因为<input>中声明的是name="file"。-->
+
+
+
+		
+	</body>
+</html>

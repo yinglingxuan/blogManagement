@@ -1,0 +1,263 @@
+			body{
+				background: url(../img/a1c322b2b8d6bc9bbc335fa5d9254b9b.gif);
+			}
+			
+			#subject{
+				position:absolute;
+				border: solid 2px #C1C1C1;
+				width: 900px;
+				left: 200px;
+			}
+			#subject #text{
+				/*border: solid 1px red;*/
+				width: 640px;
+				height: 400px;
+				float: left;
+				overflow:auto;
+				position:absolute;
+			}
+			#subject #text #txt img{
+				width: 200px;
+				height: 150px;
+			}
+			#subject #role{
+				border-left: solid 1px #C1C1C1;
+				width: 250px;
+				height: 400px;
+				padding-left:20px ;
+				float: right;
+				overflow:auto
+			}
+			#subject #input{
+				clear: both;
+				border-top: solid 2px #C1C1C1;
+				height: 100px;
+				overflow:auto
+			}
+			#subject #input img{
+				width: 50px;
+				height: 50px;
+			}
+			/*#subject #input img{
+				width: 50px;
+				height: 50px;
+			}*/
+			#subject #submit{
+				width: 100px;
+				height: 20px;
+				margin: 5px 20px ;
+			}
+			#subject #tuic #butt{
+				width: 100px;
+				/*float: right;*/
+			}
+			ul li{
+				list-style: none;
+			}
+			.golden{
+				color: darkorange;
+			}
+			#at{
+				position:absolute;
+				top: 10px;
+				right: 280px;
+				border: solid 2px springgreen;
+				color: #00FF7F;
+				font-size: 12px;
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			/*私聊*/
+			#private{
+				position:absolute;
+				top: 50px;
+				left: 100px;
+				border: solid 2px #C1C1C1;
+				width: 800px;
+				height: 400px;
+				z-index: 10;
+				background-color:#ffffff ;
+				display: none;
+				
+			}
+			#private .sp{
+				float: right;
+				margin-right:20px ;
+			}
+			#private #nickname{
+				border-right: solid 1px #C1C1C1;
+				width: 200px;
+				height: 300px;
+				float: left;
+				border-bottom: solid 1px #C1C1C1;
+			}
+			#private #prtext{
+				/*border: solid 1px #C1C1C1;*/
+				width: 560px;
+				height: 300px;
+				float: left;
+				overflow:auto;
+				/*border-bottom: solid 1px #C1C1C1;*/
+			}
+			.red{
+				color: red;
+			}
+			#private #inp{
+				border: solid 1px #C1C1C1;
+				float: left;
+				width: 650px;
+				height: 95px;
+				margin-left: 40px;
+			}
+			#private #inp img{
+				width: 50px;
+				height: 50px;
+			}
+			
+			
+			#private #prsubmit{
+				width: 100px;
+				margin-bottom: 20px;
+			}
+			#private #inp #prname{
+				width: 600px;
+				margin-left:40px ;
+				margin-top:5px ;
+				height: 80px;
+			}
+
+			h1{
+				width: 240px;
+				margin: auto;
+				padding: 20px 0px;
+				font-size: 40px;
+			}
+	
+			#bq{
+				width: 500px;
+				height: 150px;
+				overflow:auto;
+				border: solid 1px #C1C1C1;
+				position:absolute;
+				top: 250px;
+				left: 100px;
+				display: none;
+				background-color:#FFFFFF ;
+				
+				
+			}
+			#bq ul li{
+				float: left;
+			}
+
+
+			#bq2{
+				width: 500px;
+				height: 150px;
+				overflow:auto;
+				border: solid 1px #C1C1C1;
+				position:absolute;
+				top: 150px;
+				left: 280px;
+				display: none;
+				background-color:#FFFFFF ;
+			}
+			#bq2 ul li{
+				float: left;
+			}
+			#face{
+				border-radius:25px;
+				padding: 5px 15px;
+				background: url(../表情包/101.gif);
+				background-size: 100%;
+			}
+			#face2{
+				border-radius:25px;
+				padding: 10px 20px;
+				background: url(../表情包/101.gif);
+				background-size: 100%;
+			}
+			
+
+			.gx{
+				border: solid 1px #C1C1C1;
+				width: 230px;
+				height: 350px;
+				padding-top: 20px;
+				text-align: center;
+				margin-right: 20px;
+				float: right;
+				font-size: 30px;
+				font-family: '叶根友毛笔行书2.0版';
+			}
+			.gx h2{
+				font-family: '叶根友毛笔行书2.0版';
+				margin: 0px;
+				padding: 0px;
+			}
+			.gx h2 span{
+				font-size: 20px;
+			}
+			/*//视频*/
+			#subject #tuic button{
+				float: right;
+			}
+			#sp p{
+				float: right;
+				width: 70px;
+			}
+			#sp{
+				position: absolute;
+				/*border: solid 1px red;*/
+				width: 800px;
+				height: 500px;
+				margin: auto;
+				background-color: #FFFFFF;
+				z-index: 9999;
+				left: 230px;
+				display: none;
+				
+			}
+			#video1{
+				width: 800px;
+				height: 400px;
+				z-index: 9999;
+			}
+			
+			#files{
+				position: fixed;
+				top: 100px;
+				left: 220px;
+				border: solid 1px red;
+				width:500px;
+				height: 300px;
+				background-color: #FFFFFF;
+				display: none;
+			}
+			#wj{
+				margin: 130px 50px;
+			}
+
+
+			#files p{
+				float: right;
+				width: 70px;
+			}
+			
+			#sd{
+				width: 200px;
+				height: 50px;
+				border: solid 1px #C1C1C1;
+				padding-top: 20px;
+			}
+			#sd a{
+				padding: 0px 10px;
+			}
+
+
+
+
+
+
+

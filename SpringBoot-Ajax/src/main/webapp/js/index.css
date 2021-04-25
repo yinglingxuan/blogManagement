@@ -1,0 +1,117 @@
+			body{
+				background: url(../img/a1c322b2b8d6bc9bbc335fa5d9254b9b.gif);
+			}
+			
+			#subject{
+				position:absolute;
+				border: solid 2px #C1C1C1;
+				width: 900px;
+				left: 200px;
+			}
+			#subject #text{
+				/*border: solid 1px red;*/
+				width: 640px;
+				height: 400px;
+				float: left;
+				overflow:auto;
+				position:absolute;
+			}
+			#subject #role{
+				border-left: solid 1px #C1C1C1;
+				width: 250px;
+				height: 400px;
+				padding-left:20px ;
+				float: right;
+				overflow:auto
+			}
+			#subject #input{
+				clear: both;
+				border-top: solid 2px #C1C1C1;
+				height: 100px;
+			}
+			#subject #input #name{
+				width: 600px;
+				height: 60px;
+				margin: 20px;
+			}
+			/*#subject #tuic #gox{
+				width: 100px;
+				margin-left: 200px;
+				float: right;
+			}
+			*/
+			#subject #tuic #butt{
+				width: 100px;
+				float: right;
+			}
+			#subject #tuic button{
+				float: right;
+			}
+			ul li{
+				list-style: none;
+			}
+			.golden{
+				color: darkorange;
+			}
+			#at{
+				position:absolute;
+				top: 10px;
+				right: 280px;
+				border: solid 2px springgreen;
+				color: #00FF7F;
+				font-size: 12px;
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			/*私聊*/
+			#private{
+				position:absolute;
+				top: 0px;
+				border: solid 2px #C1C1C1;
+				width: 800px;
+				height: 400px;
+				z-index: 10;
+				background-color:#ffffff ;
+				display: none;
+				
+			}
+			#private .sp{
+				float: right;
+				margin-right:20px ;
+			}
+			#private #nickname{
+				border-right: solid 1px #C1C1C1;
+				width: 200px;
+				height: 300px;
+				float: left;
+			}
+			#private #prtext{
+				/*border: solid 1px #C1C1C1;*/
+				width: 560px;
+				height: 300px;
+				float: left;
+				overflow:auto;
+			}
+			.red{
+				color: red;
+			}
+			#private #inp{
+				border: solid 1px #C1C1C1;
+				float: left;
+				width: 800px;
+				height: 98px;
+			}
+			#private #inp #prname{
+				width: 600px;
+				margin-left:40px ;
+				margin-top:5px ;
+				height: 80px;
+			}
+
+			h1{
+				width: 240px;
+				margin: auto;
+				padding: 20px 0px;
+				font-size: 40px;
+			}
